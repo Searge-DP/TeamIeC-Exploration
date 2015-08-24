@@ -1,0 +1,35 @@
+package iec.teamiec.exploration;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import iec.teamiec.exploration.item.IeCEItems;
+
+public class IeCExplorationTabs {
+	
+	public static CreativeTabs tabBlocks = new CreativeTabs("tabBlocks"){
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem() {
+			return Item.getItemFromBlock(Blocks.dirt);
+		}
+	};
+	
+	public static CreativeTabs tabItems = new CreativeTabs("tabItems"){
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem() {
+			return Items.apple;
+		}
+	};
+	
+	public static CreativeTabs tabTools = new CreativeTabs("tabTools"){
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem() {
+			return Items.wooden_pickaxe;
+		}
+	};
+
+}

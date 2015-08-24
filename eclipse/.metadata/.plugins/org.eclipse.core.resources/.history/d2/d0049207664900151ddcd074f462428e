@@ -1,0 +1,52 @@
+[09:07:10] [main/INFO]: Setting user: Player606
+[09:07:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:07:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:§3TeamIeC|Exploration, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:§3TeamIeC|Core, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[09:07:40] [Sound Library Loader/INFO]: Sound engine started
+[09:07:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:07:48] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[09:07:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:§3TeamIeC|Exploration, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:§3TeamIeC|Core, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[09:07:54] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[09:07:55] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[09:07:56] [Sound Library Loader/INFO]: Sound engine started
+[09:08:19] [Client thread/INFO]: Deleting level Test World I
+[09:08:19] [Client thread/INFO]: Attempt 1...
+[09:09:14] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[09:09:14] [Server thread/INFO]: Generating keypair
+[09:09:14] [Server thread/INFO]: Converting map!
+[09:09:14] [Server thread/INFO]: Scanning folders...
+[09:09:14] [Server thread/INFO]: Total conversion count is 0
+[09:09:17] [Server thread/INFO]: Preparing start region for level 0
+[09:09:18] [Server thread/INFO]: Preparing spawn area: 47%
+[09:09:19] [Server thread/INFO]: Changing view distance to 12, from 10
+[09:09:20] [Server thread/INFO]: Player606[local:E:412c8222] logged in with entity id 33 at (-711.5, 4.0, -333.5)
+[09:09:20] [Server thread/INFO]: Player606 joined the game
+[09:09:23] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.util.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:709) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614) ~[MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118) ~[IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+Caused by: java.lang.IllegalAccessError: tried to access field net.minecraft.world.World.collidingBoundingBoxes from class cofh.asmhooks.HooksCore
+	at cofh.asmhooks.HooksCore.getEntityCollisionBoxes(HooksCore.java:85) ~[HooksCore.class:?]
+	at net.minecraft.entity.Entity.moveEntity(Entity.java:688) ~[Entity.class:?]
+	at net.minecraft.entity.EntityLivingBase.moveEntityWithHeading(EntityLivingBase.java:1680) ~[EntityLivingBase.class:?]
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2023) ~[EntityLivingBase.class:?]
+	at net.minecraft.entity.EntityLiving.onLivingUpdate(EntityLiving.java:431) ~[EntityLiving.class:?]
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1816) ~[EntityLivingBase.class:?]
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:250) ~[EntityLiving.class:?]
+	at net.minecraft.entity.monster.EntitySlime.onUpdate(EntitySlime.java:113) ~[EntitySlime.class:?]
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2298) ~[World.class:?]
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:684) ~[WorldServer.class:?]
+	at net.minecraft.world.World.updateEntity(World.java:2258) ~[World.class:?]
+	at net.minecraft.world.World.updateEntities(World.java:2108) ~[World.class:?]
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515) ~[WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703) ~[MinecraftServer.class:?]
+	... 4 more
+[09:09:23] [Server thread/ERROR]: This crash report has been saved to: C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\.\crash-reports\crash-2015-08-23_09.09.23-server.txt
+[09:09:23] [Server thread/INFO]: Stopping server
+[09:09:23] [Server thread/INFO]: Saving players
+[09:09:23] [Server thread/INFO]: Saving worlds
+[09:09:23] [Server thread/INFO]: Saving chunks for level 'Test World I'/Overworld
+[09:09:24] [Server thread/INFO]: Saving chunks for level 'Test World I'/Nether
+[09:09:24] [Server thread/INFO]: Saving chunks for level 'Test World I'/The End

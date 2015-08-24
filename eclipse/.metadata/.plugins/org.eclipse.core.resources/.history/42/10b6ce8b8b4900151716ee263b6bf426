@@ -1,0 +1,52 @@
+package iec.teamiec.exploration.item;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.client.IItemRenderer.ItemRendererHelper;
+import net.minecraftforge.common.util.EnumHelper;
+import cpw.mods.fml.common.registry.GameRegistry;
+import iec.teamiec.exploration.IeCExplorationTabs;
+import cofh.lib.util.helpers.ItemHelper;
+import cofh.core.item.ItemBase;
+import cofh.core.item.ItemBucket;
+
+public class IeCEItems {
+	
+	public static ItemBase itemMaterial;
+	public static ItemBucket itemBucket;
+	
+	public static ItemStack ingotTitanium;
+	public static ItemStack ingotNetherrite;
+	public static ItemStack ingotTriDim;
+	public static ItemStack nuggetTitanium;
+	public static ItemStack nuggetNetherrite;
+	public static ItemStack nuggetTriDim;
+	public static ItemStack dustTitanium;
+	public static ItemStack dustNetherrite;
+	public static ItemStack dustTriDim;
+	
+	public static void preInit(){
+		
+		ToolMaterial OP = EnumHelper.addToolMaterial("OP", 3, 1000000000, 99.0F, 99.0F, 30);
+		ToolMaterial TITANIUM = EnumHelper.addToolMaterial("TITANIUM", 3, 1700, 14.0F, 6.0F, 30);
+		ToolMaterial NETHERRITE = EnumHelper.addToolMaterial("NETHERRITE", 3, 600, 12.0F, 5.0F, 30);
+		ToolMaterial TRIDIM = EnumHelper.addToolMaterial("TRIDIM", 3, 2000, 16.0F, 8.0F, 30);
+		
+		itemBucket = (ItemBucket) new ItemBucket("iecexploration").setUnlocalizedName("bucket").setCreativeTab(IeCExplorationTabs.tabItems);
+		itemMaterial = (ItemBase) new ItemBase("iecexploration").setUnlocalizedName("material").setCreativeTab(IeCExplorationTabs.tabItems);
+		
+		ingotTitanium = itemMaterial.addOreDictItem(1, "ingotTitanium");
+		ingotNetherrite = itemMaterial.addOreDictItem(2, "ingotNetherrite");
+		ingotTriDim = itemMaterial.addOreDictItem(3, "ingotTriDim");	
+		nuggetTitanium = itemMaterial.addOreDictItem(4, "nuggetTitanium");
+		nuggetNetherrite = itemMaterial.addOreDictItem(5, "nuggetNetherrite");
+		nuggetTriDim = itemMaterial.addOreDictItem(6, "nuggetTriDim");
+		dustTitanium = itemMaterial.addOreDictItem(7, "dustTitanium");
+		dustNetherrite = itemMaterial.addOreDictItem(8, "dustNetherrite");
+		dustTriDim = itemMaterial.addOreDictItem(9, "dustTriDim");
+		
+	}
+
+}

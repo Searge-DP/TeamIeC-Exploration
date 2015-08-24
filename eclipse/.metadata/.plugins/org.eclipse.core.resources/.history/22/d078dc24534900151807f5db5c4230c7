@@ -1,0 +1,52 @@
+package iec.teamiec.exploration;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraftforge.common.MinecraftForge;
+import iec.teamiec.exploration.proxy.ClientProxy;
+import iec.teamiec.exploration.proxy.ServerProxy;
+import iec.teamiec.exploration.block.IeCEBlocks;
+import iec.teamiec.exploration.item.IeCEItems;
+
+@Mod(modid=IeCExploration.MODID, version=IeCExploration.VERSION, dependencies=IeCExploration.DEPENDENCIES)
+
+public class IeCExploration {
+
+	public static final String MODID = "TeamIeC|Exploration";
+	public static final String VERSION = "0.0.1";
+	public static final String DEPENDENCIES = "after:Minecraft;after:ThermalExpansion";
+
+	@Instance(value="iecexploration")
+	public static IeCExploration instance;
+	
+	@SidedProxy(clientSide=IeCExploration.CLIENTPROXY, serverSide=IeCExploration.SERVERPROXY)
+	public static ServerProxy proxy;
+	
+	public static final String CLIENTPROXY = "iec.teamiec.exploration.proxy.ClientProxy";
+	public static final String SERVERPROXY = "iec.teamiec.exploration.proxy.ServerProxy";
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		IeCEBlocks.preInit();
+		IeCEItems.preInit();
+	}
+	
+	@EventHandler
+	public void load(FMLInitializationEvent event) {
+
+	}
+	
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+
+	}
+
+}

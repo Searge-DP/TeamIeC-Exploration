@@ -1,0 +1,8 @@
+item.SwordTitanium.name=Titanium Sword
+item.ShovelTitanium.name=Titanium Shovel
+item.PickaxeTitanium.name=Titanium Pickaxe
+item.AxeTitanium.name=Titanium Axe
+item.HoeTitanium.name=Titanium Hoe
+
+tile.ores.titanium.name=Titanium Ore
+tile.ores.netherrite.name=Netherrite Ore

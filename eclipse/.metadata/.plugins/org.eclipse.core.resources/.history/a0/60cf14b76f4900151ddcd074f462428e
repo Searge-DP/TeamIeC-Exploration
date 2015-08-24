@@ -1,0 +1,27 @@
+package iec.teamiec.exploration.handler;
+
+import cofh.api.modhelpers.ThermalExpansionHelper;
+import cofh.thermalfoundation.block.TFBlocks;
+import cofh.thermalfoundation.item.TFItems;
+
+public class CraftingHandler {
+	
+	public static void postInit(){
+		crafting();
+		smelting();
+		pulverizing();
+	}
+	
+	public static void crafting(){
+	
+	}
+	
+	public static void smelting(){
+		
+	}
+	
+	public static void pulverizing(){
+		
+	}
+
+}

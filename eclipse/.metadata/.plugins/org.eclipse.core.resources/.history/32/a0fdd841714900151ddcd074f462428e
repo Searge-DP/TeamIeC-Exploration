@@ -1,0 +1,1322 @@
+[10:19:54] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[10:19:54] [main/INFO] [FML/]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
+[10:19:54] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre1.8.0_51
+[10:19:54] [main/DEBUG] [FML/]: Java classpath at launch is C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\bin;C:\Users\Kitsune Alex\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1448-1.7.10\forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.11\9c0592c6e1e9ea296a70948081bd4cc84dda1289\launchwrapper-1.11.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar;C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar;C:\Users\Kitsune Alex\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1448-1.7.10\start;C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\libs\TeamIeCCore-[1.7.10]0.1.1-dev.jar;C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\libs\CoFHLib-[1.7.10]1.0.3-175-dev.jar;C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\libs\ThermalFoundation-[1.7.10]1.2.0-102-dev.jar
+[10:19:54] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files\Java\jre1.8.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;.;C:/Users/Kitsune Alex/.gradle/caches/minecraft/net/minecraft/minecraft_natives/1.7.10
+[10:19:54] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:19:54] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[10:19:54] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[10:19:54] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[10:19:54] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[10:19:54] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[10:19:54] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[10:19:54] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[10:19:54] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\.
+[10:19:54] [main/DEBUG] [FML/]: Discovering coremods
+[10:19:54] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenCore-1.7.10-1.0.7.47-dev.jar
+[10:19:54] [main/TRACE] [FML/]: Adding CodeChickenCore-1.7.10-1.0.7.47-dev.jar to the list of known coremods, it will not be examined again
+[10:19:54] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
+[10:19:55] [main/WARN] [FML/]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[10:19:56] [main/INFO] [STDERR/]: [codechicken.core.launch.DepLoader$DepLoadInst:checkExisting:436]: Warning: version of CodeChickenLib, 1.1.3.140 is newer than request 1.1.3.138
+[10:19:56] [main/DEBUG] [FML/]: Added access transformer class codechicken.core.asm.CodeChickenAccessTransformer to enqueued access transformers
+[10:19:56] [main/DEBUG] [FML/]: Enqueued coremod CodeChickenCorePlugin
+[10:19:56] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.3.140-dev.jar
+[10:19:56] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.3.140-dev.jar
+[10:19:56] [main/DEBUG] [FML/]: Examining for coremod candidacy CoFHCore-[1.7.10]3.0.3-303-dev.jar
+[10:19:56] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CoFHCore-[1.7.10]3.0.3-303-dev.jar, it will be examined later for regular @Mod instances
+[10:19:56] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[10:19:56] [main/WARN] [FML/]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[10:19:56] [main/DEBUG] [FML/]: Added access transformer class cofh.asm.CoFHAccessTransformer to enqueued access transformers
+[10:19:56] [main/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[10:19:56] [main/DEBUG] [FML/]: Examining for coremod candidacy NotEnoughItems-1.7.10-1.0.5.111-dev.jar
+[10:19:56] [main/TRACE] [FML/]: Adding NotEnoughItems-1.7.10-1.0.5.111-dev.jar to the list of known coremods, it will not be examined again
+[10:19:56] [main/DEBUG] [FML/]: Instantiating coremod class NEICorePlugin
+[10:19:56] [main/WARN] [FML/]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[10:19:56] [main/DEBUG] [FML/]: Enqueued coremod NEICorePlugin
+[10:19:56] [main/DEBUG] [FML/]: Examining for coremod candidacy ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar
+[10:19:56] [main/DEBUG] [FML/]: Not found coremod data in ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar
+[10:19:56] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:19:56] [main/INFO] [GradleStart/]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[10:19:56] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:19:56] [main/INFO] [GradleStart/]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[10:19:56] [main/INFO] [GradleStart/]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[10:19:56] [main/INFO] [GradleStart/]: Injecting location in coremod cofh.asm.LoadingPlugin
+[10:19:56] [main/INFO] [GradleStart/]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
+[10:19:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:19:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[10:19:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:19:56] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:19:56] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:19:56] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:19:56] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[10:19:56] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[10:19:57] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[10:19:57] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[10:19:57] [main/DEBUG] [FML/]: Injection complete
+[10:19:57] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[10:19:57] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[10:19:57] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[10:20:03] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[10:20:03] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[10:20:03] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:20:03] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[10:20:03] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[10:20:03] [main/DEBUG] [FML/]: Injection complete
+[10:20:03] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[10:20:03] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[10:20:03] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[10:20:03] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:20:03] [main/DEBUG] [FML/]: Injecting coremod CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin} class transformers
+[10:20:03] [main/DEBUG] [FML/]: Injection complete
+[10:20:03] [main/DEBUG] [FML/]: Running coremod plugin for CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin}
+[10:20:03] [main/DEBUG] [FML/]: Running coremod plugin CCCDeobfPlugin
+[10:20:05] [main/DEBUG] [FML/]: Coremod plugin class LoadPlugin run successfully
+[10:20:05] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:20:05] [main/DEBUG] [FML/]: Injecting coremod CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin} class transformers
+[10:20:05] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.ClassHeirachyManager
+[10:20:05] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.InterfaceDependancyTransformer
+[10:20:05] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.TweakTransformer
+[10:20:05] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DelegatedTransformer
+[10:20:05] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DefaultImplementationTransformer
+[10:20:05] [main/DEBUG] [FML/]: Injection complete
+[10:20:05] [main/DEBUG] [FML/]: Running coremod plugin for CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin}
+[10:20:05] [main/DEBUG] [FML/]: Running coremod plugin CodeChickenCorePlugin
+[10:20:05] [main/DEBUG] [FML/]: Coremod plugin class CodeChickenCorePlugin run successfully
+[10:20:05] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:20:05] [main/DEBUG] [FML/]: Injecting coremod NEICorePlugin {codechicken.nei.asm.NEICorePlugin} class transformers
+[10:20:05] [main/TRACE] [FML/]: Registering transformer codechicken.nei.asm.NEITransformer
+[10:20:05] [main/DEBUG] [FML/]: Injection complete
+[10:20:05] [main/DEBUG] [FML/]: Running coremod plugin for NEICorePlugin {codechicken.nei.asm.NEICorePlugin}
+[10:20:05] [main/DEBUG] [FML/]: Running coremod plugin NEICorePlugin
+[10:20:05] [main/DEBUG] [FML/]: Coremod plugin class NEICorePlugin run successfully
+[10:20:05] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[10:20:05] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[10:20:06] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[10:20:06] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[10:20:06] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[10:20:06] [main/DEBUG] [CoFH ASM/]: Adding Accesstransformer map: CoFH_at.cfg
+[10:20:06] [main/DEBUG] [FML/]: Loaded 93 rules from AccessTransformer config file CoFH_at.cfg
+[10:20:06] [main/DEBUG] [FML/]: Loaded 11 rules from AccessTransformer mod jar file C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\mods\NotEnoughItems-1.7.10-1.0.5.111-dev.jar!META-INF/nei_at.cfg
+
+[10:20:06] [main/DEBUG] [FML/]: Validating minecraft
+[10:20:08] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[10:20:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:20:08] [main/DEBUG] [FML/]: Injecting coremod LoadingPlugin {cofh.asm.LoadingPlugin} class transformers
+[10:20:08] [main/TRACE] [FML/]: Registering transformer cofh.asm.CoFHClassTransformer
+[10:20:08] [main/DEBUG] [FML/]: Injection complete
+[10:20:08] [main/DEBUG] [FML/]: Running coremod plugin for LoadingPlugin {cofh.asm.LoadingPlugin}
+[10:20:08] [main/DEBUG] [FML/]: Running coremod plugin LoadingPlugin
+[10:20:08] [main/DEBUG] [FML/]: Coremod plugin class LoadingPlugin run successfully
+[10:20:08] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:20:09] [main/DEBUG] [GradleStart/]: Reading CSV file: C:\Users\Kitsune Alex\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1448-1.7.10\unpacked\conf\fields.csv
+[10:20:09] [main/DEBUG] [GradleStart/]: Reading CSV file: C:\Users\Kitsune Alex\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1448-1.7.10\unpacked\conf\methods.csv
+[10:20:09] [main/INFO] [GradleStart/]: Remapping AccessTransformer rules...
+[10:20:09] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[10:20:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[10:20:09] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:20:13] [main/DEBUG] [CCL ASM/]: Inserted super call into [net/minecraft/client/renderer/InventoryEffectRenderer.updateScreen()V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/client/gui/inventory/GuiContainer.setWorldAndResolution(Lnet/minecraft/client/Minecraft;II)V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/client/gui/inventory/GuiContainer.handleKeyboardInput()V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/client/gui/inventory/GuiContainer.handleKeyboardInput()V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/client/gui/inventory/GuiContainer.handleKeyboardInput()V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/client/gui/inventory/GuiContainer.handleMouseInput()V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/client/gui/inventory/GuiContainer.public_func_73869_a(CI)V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/client/gui/inventory/GuiContainer.public_func_146984_a(Lnet/minecraft/inventory/Slot;III)V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Injecting before method [net/minecraft/client/gui/inventory/GuiContainer.drawScreen(IIF)V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Injecting after method [net/minecraft/client/gui/inventory/GuiContainer.drawScreen(IIF)V] @ 138 - 140
+[10:20:13] [main/DEBUG] [CCL ASM/]: Injecting after method [net/minecraft/client/gui/inventory/GuiContainer.drawScreen(IIF)V] @ 220 - 225
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.drawScreen(IIF)V] @ 444 - 470
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.drawItemStack(Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V] @ 9 - 10
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.drawItemStack(Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V] @ 14 - 15
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.func_146977_a(Lnet/minecraft/inventory/Slot;)V] @ 298 - 323
+[10:20:13] [main/DEBUG] [CCL ASM/]: Injecting before method [net/minecraft/client/gui/inventory/GuiContainer.mouseClicked(III)V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseClicked(III)V] @ 259 - 260
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseClicked(III)V] @ 331 - 332
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseClickMove(IIIJ)V] @ 98 - 99
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseClickMove(IIIJ)V] @ 107 - 108
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseClickMove(IIIJ)V] @ 118 - 119
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 158 - 159
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 168 - 169
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 287 - 288
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 295 - 296
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 314 - 315
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 424 - 425
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 454 - 455
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 469 - 470
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 498 - 499
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V] @ 558 - 560
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.keyTyped(CI)V] @ 54 - 55
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.keyTyped(CI)V] @ 84 - 85
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.checkHotbarKeys(I)Z] @ 41 - 42
+[10:20:13] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/client/gui/inventory/GuiContainer.managerHandleMouseClick(Lnet/minecraft/inventory/Slot;III)V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Injecting after method [net/minecraft/client/gui/inventory/GuiContainer.mouseClickMove(IIIJ)V] @ 14 - 15
+[10:20:13] [main/DEBUG] [CCL ASM/]: Injecting before method [net/minecraft/client/gui/inventory/GuiContainer.mouseMovedOrUp(III)V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: NEI: Injecting mouseUp call
+[10:20:13] [main/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/gui/inventory/GuiContainer.handleMouseClick(Lnet/minecraft/inventory/Slot;III)V] @ 10 - 26
+[10:20:13] [main/DEBUG] [CCL ASM/]: Injecting before method [net/minecraft/client/gui/inventory/GuiContainer.keyTyped(CI)V]
+[10:20:13] [main/DEBUG] [CCL ASM/]: Injecting after method [net/minecraft/client/gui/inventory/GuiContainer.updateScreen()V] @ 0 - 4
+[10:20:19] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/block/Block.canBeReplacedByLeaves(Lnet/minecraft/world/IBlockAccess;III)Z]
+[10:20:22] [main/DEBUG] [CCL ASM/]: Writing method [net/minecraft/block/BlockMobSpawner.onBlockPlacedBy(Lnet/minecraft/world/World;IIILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V]
+[10:20:24] [main/DEBUG] [CCL ASM/]: Injecting before method [net/minecraft/nbt/NBTTagCompound.toString()Ljava/lang/String;] @ 52 - 56
+[10:20:25] [main/DEBUG] [CCL ASM/]: Injecting before method [net/minecraft/nbt/NBTTagList.toString()Ljava/lang/String;] @ 56 - 60
+[10:20:29] [Client thread/DEBUG] [CCL ASM/]: Replacing method [net/minecraft/client/renderer/entity/RenderItem.renderGlint(IIIII)V] @ 7 - 16
+[10:20:31] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 23.08.15 10:20
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1899253232 bytes (1811 MB) / 2112618496 bytes (2014 MB) up to 3211526144 bytes (3062 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx3096M -Xms2048M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13399 Compatibility Profile Context 15.200.1062.1002' Renderer: 'AMD Radeon R5 M200 Series'
+[10:20:31] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[10:20:31] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1448 Initialized
+[10:20:31] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[10:20:32] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[10:20:32] [Client thread/DEBUG] [FML/]: File C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\config\injectedDependencies.json not found. No dependencies injected
+[10:20:32] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, codechicken.core.asm.CodeChickenCoreModContainer, codechicken.nei.NEIModContainer, cofh.asm.LoadingPlugin$CoFHDummyContainer]
+[10:20:32] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\bin, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1448-1.7.10\forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.11\9c0592c6e1e9ea296a70948081bd4cc84dda1289\launchwrapper-1.11.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar, examining for mod candidates
+[10:20:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\Kitsune Alex\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1448-1.7.10\start, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\libs\TeamIeCCore-[1.7.10]0.1.1-dev.jar, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\libs\CoFHLib-[1.7.10]1.0.3-175-dev.jar, examining for mod candidates
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\libs\ThermalFoundation-[1.7.10]1.2.0-102-dev.jar, examining for mod candidates
+[10:20:33] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\mods\CodeChickenCore-1.7.10-1.0.7.47-dev.jar
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\.\mods\1.7.10\CodeChickenLib-1.7.10-1.1.3.140-dev.jar, examining for mod candidates
+[10:20:33] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\mods\CoFHCore-[1.7.10]3.0.3-303-dev.jar
+[10:20:33] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\mods\NotEnoughItems-1.7.10-1.0.5.111-dev.jar
+[10:20:33] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[10:20:33] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[10:20:33] [Client thread/INFO] [FML/]: Searching C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\mods for mods
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[10:20:33] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker CodeChickenCore-1.7.10-1.0.7.47-dev.jar
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CoFHCore-[1.7.10]3.0.3-303-dev.jar
+[10:20:33] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker NotEnoughItems-1.7.10-1.0.5.111-dev.jar
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar
+[10:20:33] [Client thread/INFO] [FML/]: Also searching C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\mods\1.7.10 for mods
+[10:20:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.7.10-1.1.3.140-dev.jar
+[10:20:33] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[10:20:33] [Client thread/DEBUG] [FML/]: Found an mcmod.info file in directory bin
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets.iecexploration
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets.iecexploration.lang
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets.iecexploration.textures
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets.iecexploration.textures.blocks
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets.iecexploration.textures.blocks.material
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets.iecexploration.textures.items
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets.iecexploration.textures.items.material
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package assets.iecexploration.textures.items.tool
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.block
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.core
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.energy
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.fluid
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.inventory
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.item
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.modhelpers
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.tileentity
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.transport
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package cofh.api.world
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package iec
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package iec.teamiec
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package iec.teamiec.exploration
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package iec.teamiec.exploration.block
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package iec.teamiec.exploration.handler
+[10:20:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (iec.teamiec.exploration.IeCExploration) - loading
+[10:20:33] [Client thread/TRACE] [TeamIeC|Exploration/]: Parsed dependency info : [] [Minecraft] []
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package iec.teamiec.exploration.item
+[10:20:33] [Client thread/TRACE] [FML/]: Recursing into package iec.teamiec.exploration.proxy
+[10:20:33] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar for potential mods
+[10:20:33] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar appears to be missing an mcmod.info file
+[10:20:36] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.11.jar for potential mods
+[10:20:36] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.11.jar appears to be missing an mcmod.info file
+[10:20:36] [Client thread/DEBUG] [FML/]: Examining file jsr305-1.3.9.jar for potential mods
+[10:20:36] [Client thread/DEBUG] [FML/]: The mod container jsr305-1.3.9.jar appears to be missing an mcmod.info file
+[10:20:36] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[10:20:36] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[10:20:36] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[10:20:36] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[10:20:36] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[10:20:36] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[10:20:36] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[10:20:36] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[10:20:36] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[10:20:36] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[10:20:37] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[10:20:37] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[10:20:38] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[10:20:38] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[10:20:38] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[10:20:38] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[10:20:38] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[10:20:38] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[10:20:38] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[10:20:38] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[10:20:38] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[10:20:38] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[10:20:39] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[10:20:39] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[10:20:39] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[10:20:39] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[10:20:39] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[10:20:39] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[10:20:39] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[10:20:39] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[10:20:39] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[10:20:39] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[10:20:39] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[10:20:39] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[10:20:39] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[10:20:39] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.16.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.16.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file scala-actors-2.11.0.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container scala-actors-2.11.0.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-32.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-32.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-64.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-64.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-osx.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-osx.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-32.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-32.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-64.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-64.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-windows.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-windows.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-linux.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-linux.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-osx.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-osx.jar appears to be missing an mcmod.info file
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[10:20:40] [Client thread/TRACE] [FML/]: Recursing into package net
+[10:20:40] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[10:20:40] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[10:20:40] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file TeamIeCCore-[1.7.10]0.1.1-dev.jar for potential mods
+[10:20:40] [Client thread/TRACE] [FML/]: Located mcmod.info file in file TeamIeCCore-[1.7.10]0.1.1-dev.jar
+[10:20:40] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (iec.teamiec.core.IeCCore) - loading
+[10:20:40] [Client thread/TRACE] [TeamIeC|Core/]: Parsed dependency info : [] [Minecraft, ThermalExpansion] []
+[10:20:40] [Client thread/DEBUG] [FML/]: Examining file CoFHLib-[1.7.10]1.0.3-175-dev.jar for potential mods
+[10:20:40] [Client thread/DEBUG] [FML/]: The mod container CoFHLib-[1.7.10]1.0.3-175-dev.jar appears to be missing an mcmod.info file
+[10:20:41] [Client thread/DEBUG] [FML/]: Examining file ThermalFoundation-[1.7.10]1.2.0-102-dev.jar for potential mods
+[10:20:41] [Client thread/TRACE] [FML/]: Located mcmod.info file in file ThermalFoundation-[1.7.10]1.2.0-102-dev.jar
+[10:20:41] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cofh.thermalfoundation.ThermalFoundation) - loading
+[10:20:41] [Client thread/TRACE] [ThermalFoundation/]: Parsed dependency info : [CoFHCore@[1.7.10R3.0.3,)] [CoFHCore@[1.7.10R3.0.3,)] []
+[10:20:41] [Client thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.140-dev.jar for potential mods
+[10:20:41] [Client thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.140-dev.jar appears to be missing an mcmod.info file
+[10:20:41] [Client thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[10:20:41] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[10:20:41] [Client thread/DEBUG] [FML/]: Examining file CoFHCore-[1.7.10]3.0.3-303-dev.jar for potential mods
+[10:20:41] [Client thread/TRACE] [FML/]: Located mcmod.info file in file CoFHCore-[1.7.10]3.0.3-303-dev.jar
+[10:20:41] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cofh.CoFHCore) - loading
+[10:20:41] [Client thread/TRACE] [CoFHCore/]: Parsed dependency info : [Forge@[10.13.3.1448,10.14)] [Forge@[10.13.3.1448,10.14)] []
+[10:20:41] [Client thread/DEBUG] [FML/]: Examining file ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar for potential mods
+[10:20:41] [Client thread/TRACE] [FML/]: Located mcmod.info file in file ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar
+[10:20:41] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cofh.thermalexpansion.ThermalExpansion) - loading
+[10:20:41] [Client thread/TRACE] [ThermalExpansion/]: Parsed dependency info : [ThermalFoundation@[1.7.10R1.2.0,), CoFHCore@[1.7.10R3.0.3,)] [CoFHCore@[1.7.10R3.0.3,), ThermalFoundation@[1.7.10R1.2.0,)] []
+[10:20:41] [Client thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.140-dev.jar for potential mods
+[10:20:41] [Client thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.140-dev.jar appears to be missing an mcmod.info file
+[10:20:41] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 11 mods to load
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.audio (owned by CoFHLib providing CoFHLib|audio) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.world (owned by CoFHAPI providing CoFHAPI|world) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.inventory (owned by CoFHLib providing CoFHLib|inventory) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.util.position (owned by CoFHLib providing CoFHLib|util|position) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.inventory (owned by CoFHAPI providing CoFHAPI|inventory) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui.element.listbox (owned by CoFHLib providing CoFHLib|gui|element|listbox) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.world.feature (owned by CoFHLib providing CoFHLib|world|feature) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.util (owned by CoFHLib providing CoFHLib|util) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.world (owned by CoFHAPI providing CoFHAPI|world) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.transport (owned by CoFHAPI providing CoFHAPI|transport) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.tileentity (owned by CoFHAPI providing CoFHAPI|tileentity) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.modhelpers (owned by CoFHAPI providing CoFHAPI|modhelpers) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.render.particle (owned by CoFHLib providing CoFHLib|render|particle) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib (owned by CoFHCore providing CoFHLib) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.modhelpers (owned by CoFHAPI providing CoFHAPI|modhelpers) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.render (owned by CoFHLib providing CoFHLib|render) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui.container (owned by CoFHLib providing CoFHLib|gui|container) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.tileentity (owned by CoFHAPI providing CoFHAPI|tileentity) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.item (owned by CoFHAPI providing CoFHAPI|item) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.fluid (owned by CoFHAPI providing CoFHAPI|fluid) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui.slot (owned by CoFHLib providing CoFHLib|gui|slot) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.core (owned by CoFHAPI providing CoFHAPI|core) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui.element (owned by CoFHLib providing CoFHLib|gui|element) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.core (owned by CoFHAPI providing CoFHAPI|core) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API baubles.api (owned by Baubles providing Baubles|API) embedded in ThermalFoundation
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.fluid (owned by CoFHAPI providing CoFHAPI|fluid) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.transport (owned by CoFHAPI providing CoFHAPI|transport) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.world (owned by CoFHLib providing CoFHLib|world) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.inventory (owned by CoFHAPI providing CoFHAPI|inventory) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui (owned by CoFHLib providing CoFHLib|gui) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.block (owned by CoFHAPI providing CoFHAPI|block) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.item (owned by CoFHAPI providing CoFHAPI|item) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.lib.util.helpers (owned by CoFHLib providing CoFHLib|util|helpers) embedded in CoFHCore
+[10:20:41] [Client thread/DEBUG] [FML/]: Found API cofh.api.block (owned by CoFHAPI providing CoFHAPI|block) embedded in TeamIeC|Exploration
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|slot:1.7.10R1.0.3B3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|slot: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|core:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|core:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|core: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|world:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|world:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|world: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|energy:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|audio:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|audio: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|world:1.7.10R1.0.3B3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|world: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|render|particle:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|render|particle: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|tileentity:1.7.10R1.0.13}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|tileentity:1.7.10R1.0.13}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|tileentity: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI:1.7.10R1.0.13}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|element|listbox:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|element|listbox: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|container:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|container: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|item:1.7.10R1.0.13}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|item:1.7.10R1.0.13}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|item: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|world|feature:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|world|feature: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util|position:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util|position: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|modhelpers:1.7.10R1.0.13}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|modhelpers:1.7.10R1.0.13}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|modhelpers: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API Baubles|API: owner: Baubles, dependents: [ThermalFoundation]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util|helpers:1.7.10R1.0.3B3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util|helpers: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|fluid:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|fluid:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|fluid: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|block:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|block:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|block: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|element:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|element: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|transport:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|transport:1.7.10R1.0.13B2}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|transport: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib: owner: CoFHCore, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|inventory:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|inventory: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui:1.7.10R1.0.3B3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|render:1.7.10R1.0.3}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|render: owner: CoFHLib, dependents: []
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|inventory:1.7.10R1.0.13}
+[10:20:41] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|inventory:1.7.10R1.0.13}
+[10:20:41] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|inventory: owner: CoFHAPI, dependents: [TeamIeC|Exploration]
+[10:20:41] [Client thread/TRACE] [FML/]: Received a system property request ''
+[10:20:41] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[10:20:41] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[10:20:41] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[10:20:41] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[10:20:41] [Client thread/DEBUG] [FML/]: Found translations in NotEnoughItems-1.7.10-1.0.5.111-dev.jar [cs_CZ, fr_FR, et_EE, zh_CN, it_IT, zh_TW, de_DE, tr_TR, ru_RU, pt_BR, sk_SK, ko_KR, pl_PL, en_US]
+[10:20:41] [Client thread/DEBUG] [TeamIeC|Exploration/]: Enabling mod TeamIeC|Exploration
+[10:20:41] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/iecexploration/lang/en_US.lang into language system
+[10:20:42] [Client thread/DEBUG] [TeamIeC|Core/]: Enabling mod TeamIeC|Core
+[10:20:42] [Client thread/DEBUG] [ThermalFoundation/]: Enabling mod ThermalFoundation
+[10:20:42] [Client thread/DEBUG] [FML/]: Found translations in ThermalFoundation-[1.7.10]1.2.0-102-dev.jar [cs_CZ, de_DE, en_GB, en_US, it_IT, ko_KR, nl_NL, pl_PL, pt_BR, ru_RU, sk_SK, zh_CN, zh_TW]
+[10:20:42] [Client thread/DEBUG] [CoFHCore/]: Enabling mod CoFHCore
+[10:20:42] [Client thread/DEBUG] [FML/]: Found translations in CoFHCore-[1.7.10]3.0.3-303-dev.jar [cs_CZ, de_DE, en_US, es_ES, fr_CA, fr_FR, hu_HU, it_IT, ko_KR, pl_PL, ru_RU, zh_CN, zh_TW]
+[10:20:42] [Client thread/DEBUG] [ThermalExpansion/]: Enabling mod ThermalExpansion
+[10:20:42] [Client thread/DEBUG] [FML/]: Found translations in ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar [cs_CZ, de_DE, en_GB, en_US, it_IT, ko_KR, nl_NL, pt_BR, ru_RU, zh_CN, zh_TW]
+[10:20:42] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[10:20:42] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[10:20:42] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[10:20:42] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[10:20:42] [Client thread/DEBUG] [FML/]: Mod sorting data
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHCore(CoFH Core:1.7.10R3.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar (required-after:Forge@[10.13.3.1448,10.14);)
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib(API: CoFHLib:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI(API: CoFHAPI:1.7.10R1.0.13): bin ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|core(API: CoFHAPI|core:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|world(API: CoFHAPI|world:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|energy(API: CoFHAPI|energy:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|tileentity(API: CoFHAPI|tileentity:1.7.10R1.0.13): bin ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|item(API: CoFHAPI|item:1.7.10R1.0.13): bin ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|modhelpers(API: CoFHAPI|modhelpers:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|fluid(API: CoFHAPI|fluid:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|block(API: CoFHAPI|block:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|transport(API: CoFHAPI|transport:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHAPI|inventory(API: CoFHAPI|inventory:1.7.10R1.0.13): bin ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	TeamIeC|Exploration(§3TeamIeC|Exploration:0.0.1): bin (after:Minecraft)
+[10:20:42] [Client thread/DEBUG] [FML/]: 	Baubles|API(API: Baubles|API:1.0.1.10): ThermalFoundation-[1.7.10]1.2.0-102-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	ThermalFoundation(Thermal Foundation:1.7.10R1.2.0): ThermalFoundation-[1.7.10]1.2.0-102-dev.jar (required-after:CoFHCore@[1.7.10R3.0.3,))
+[10:20:42] [Client thread/DEBUG] [FML/]: 	ThermalExpansion(Thermal Expansion:1.7.10R4.0.3B1): ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar (required-after:CoFHCore@[1.7.10R3.0.3,);required-after:ThermalFoundation@[1.7.10R1.2.0,))
+[10:20:42] [Client thread/DEBUG] [FML/]: 	TeamIeC|Core(§3TeamIeC|Core:0.1.1): TeamIeCCore-[1.7.10]0.1.1-dev.jar (after:Minecraft;after:ThermalExpansion)
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|slot(API: CoFHLib|gui|slot:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|audio(API: CoFHLib|audio:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|world(API: CoFHLib|world:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|render|particle(API: CoFHLib|render|particle:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|util(API: CoFHLib|util:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|element|listbox(API: CoFHLib|gui|element|listbox:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|container(API: CoFHLib|gui|container:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|world|feature(API: CoFHLib|world|feature:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|util|position(API: CoFHLib|util|position:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|util|helpers(API: CoFHLib|util|helpers:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|element(API: CoFHLib|gui|element:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|inventory(API: CoFHLib|inventory:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui(API: CoFHLib|gui:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.0.3-175-dev.jar ()
+[10:20:42] [Client thread/DEBUG] [FML/]: 	CoFHLib|render(API: CoFHLib|render:1.7.10R1.0.3): CoFHCore-[1.7.10]3.0.3-303-dev.jar ()
+[10:20:42] [Client thread/INFO] [FML/]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.140-dev.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[10:20:42] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[10:20:42] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[10:20:42] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[10:20:42] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[10:20:42] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[10:20:42] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[10:20:42] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, <CoFH ASM>, TeamIeC|Exploration, TeamIeC|Core, ThermalFoundation, CoFHCore, ThermalExpansion] at CLIENT
+[10:20:42] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, <CoFH ASM>, TeamIeC|Exploration, TeamIeC|Core, ThermalFoundation, CoFHCore, ThermalExpansion] at SERVER
+[10:20:44] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[10:20:44] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[10:20:44] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[10:20:44] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[10:20:44] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1448)
+[10:20:44] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[10:20:44] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLConstructionEvent to mod CodeChickenCore
+[10:20:44] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLConstructionEvent to mod CodeChickenCore
+[10:20:44] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLConstructionEvent to mod NotEnoughItems
+[10:20:44] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLConstructionEvent to mod NotEnoughItems
+[10:20:44] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLConstructionEvent to mod <CoFH ASM>
+[10:20:44] [Client thread/DEBUG] [CoFH ASM/<CoFH ASM>]: Scraping data
+[10:20:44] [Client thread/DEBUG] [CoFH ASM/<CoFH ASM>]: Found 6 @Implementable and 16 @Strippable
+[10:20:44] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLConstructionEvent to mod <CoFH ASM>
+[10:20:44] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLConstructionEvent to mod CoFHCore
+[10:20:45] [Client thread/TRACE] [FML/CoFHCore]: Mod CoFHCore is using network checker : Accepting version 1.7.10R3.0.3
+[10:20:45] [Client thread/TRACE] [FML/CoFHCore]: Testing mod CoFHCore to verify it accepts its own version in a remote connection
+[10:20:45] [Client thread/TRACE] [FML/CoFHCore]: The mod CoFHCore accepts its own version (1.7.10R3.0.3)
+[10:20:45] [Client thread/DEBUG] [FML/CoFHCore]: Attempting to inject @SidedProxy classes into CoFHCore
+[10:20:45] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLConstructionEvent to mod CoFHCore
+[10:20:45] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLConstructionEvent to mod TeamIeC|Exploration
+[10:20:45] [Client thread/TRACE] [FML/TeamIeC|Exploration]: Mod TeamIeC|Exploration is using network checker : Accepting version 0.0.1
+[10:20:45] [Client thread/TRACE] [FML/TeamIeC|Exploration]: Testing mod TeamIeC|Exploration to verify it accepts its own version in a remote connection
+[10:20:45] [Client thread/TRACE] [FML/TeamIeC|Exploration]: The mod TeamIeC|Exploration accepts its own version (0.0.1)
+[10:20:45] [Client thread/DEBUG] [FML/TeamIeC|Exploration]: Attempting to inject @SidedProxy classes into TeamIeC|Exploration
+[10:20:45] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLConstructionEvent to mod TeamIeC|Exploration
+[10:20:45] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLConstructionEvent to mod ThermalFoundation
+[10:20:45] [Client thread/TRACE] [FML/ThermalFoundation]: Mod ThermalFoundation is using network checker : Invoking method networkCheck
+[10:20:45] [Client thread/TRACE] [FML/ThermalFoundation]: Testing mod ThermalFoundation to verify it accepts its own version in a remote connection
+[10:20:45] [Client thread/TRACE] [FML/ThermalFoundation]: The mod ThermalFoundation accepts its own version (1.7.10R1.2.0)
+[10:20:45] [Client thread/DEBUG] [FML/ThermalFoundation]: Attempting to inject @SidedProxy classes into ThermalFoundation
+[10:20:46] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLConstructionEvent to mod ThermalFoundation
+[10:20:46] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLConstructionEvent to mod ThermalExpansion
+[10:20:46] [Client thread/TRACE] [FML/ThermalExpansion]: Mod ThermalExpansion is using network checker : Invoking method networkCheck
+[10:20:46] [Client thread/TRACE] [FML/ThermalExpansion]: Testing mod ThermalExpansion to verify it accepts its own version in a remote connection
+[10:20:46] [Client thread/TRACE] [FML/ThermalExpansion]: The mod ThermalExpansion accepts its own version (1.7.10R4.0.3B1)
+[10:20:46] [Client thread/DEBUG] [FML/ThermalExpansion]: Attempting to inject @SidedProxy classes into ThermalExpansion
+[10:20:46] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLConstructionEvent to mod ThermalExpansion
+[10:20:46] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLConstructionEvent to mod TeamIeC|Core
+[10:20:46] [Client thread/TRACE] [FML/TeamIeC|Core]: Mod TeamIeC|Core is using network checker : Accepting version 0.1.1
+[10:20:46] [Client thread/TRACE] [FML/TeamIeC|Core]: Testing mod TeamIeC|Core to verify it accepts its own version in a remote connection
+[10:20:46] [Client thread/TRACE] [FML/TeamIeC|Core]: The mod TeamIeC|Core accepts its own version (0.1.1)
+[10:20:46] [Client thread/DEBUG] [FML/TeamIeC|Core]: Attempting to inject @SidedProxy classes into TeamIeC|Core
+[10:20:46] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLConstructionEvent to mod TeamIeC|Core
+[10:20:46] [Client thread/DEBUG] [FML/]: Mod signature data
+[10:20:46] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[10:20:46] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[10:20:46] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1448)	forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		CodeChickenCore	(CodeChicken Core	1.0.7.47)	minecraft.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		NotEnoughItems	(Not Enough Items	1.0.5.111)	NotEnoughItems-1.7.10-1.0.5.111-dev.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		<CoFH ASM>	(CoFH ASM	000)	minecraft.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		CoFHCore	(CoFH Core	1.7.10R3.0.3)	CoFHCore-[1.7.10]3.0.3-303-dev.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		TeamIeC|Exploration	(§3TeamIeC|Exploration	0.0.1)	bin
+[10:20:46] [Client thread/DEBUG] [FML/]: 		ThermalFoundation	(Thermal Foundation	1.7.10R1.2.0)	ThermalFoundation-[1.7.10]1.2.0-102-dev.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		ThermalExpansion	(Thermal Expansion	1.7.10R4.0.3B1)	ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar
+[10:20:46] [Client thread/DEBUG] [FML/]: 		TeamIeC|Core	(§3TeamIeC|Core	0.1.1)	TeamIeCCore-[1.7.10]0.1.1-dev.jar
+[10:20:47] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:20:47] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:20:47] [Client thread/DEBUG] [Not Enough Items/]: Mod Not Enough Items is missing a pack.mcmeta file, substituting a dummy one
+[10:20:47] [Client thread/DEBUG] [§3TeamIeC|Exploration/]: Mod §3TeamIeC|Exploration is missing a pack.mcmeta file, substituting a dummy one
+[10:20:47] [Client thread/DEBUG] [§3TeamIeC|Core/]: Mod §3TeamIeC|Core is missing a pack.mcmeta file, substituting a dummy one
+[10:20:47] [Client thread/DEBUG] [Thermal Foundation/]: Mod Thermal Foundation is missing a pack.mcmeta file, substituting a dummy one
+[10:20:47] [Client thread/DEBUG] [CoFH Core/]: Mod CoFH Core is missing a pack.mcmeta file, substituting a dummy one
+[10:20:47] [Client thread/DEBUG] [Thermal Expansion/]: Mod Thermal Expansion is missing a pack.mcmeta file, substituting a dummy one
+[10:20:47] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[10:20:47] [Client thread/INFO] [FML/]: Found 337 ObjectHolder annotations
+[10:20:47] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[10:20:47] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[10:20:47] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[10:20:47] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[10:20:47] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[10:20:47] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[10:20:47] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[10:20:47] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[10:20:47] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[10:20:47] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLPreInitializationEvent to mod CodeChickenCore
+[10:20:47] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLPreInitializationEvent to mod CodeChickenCore
+[10:20:47] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLPreInitializationEvent to mod NotEnoughItems
+[10:20:48] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLPreInitializationEvent to mod NotEnoughItems
+[10:20:48] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLPreInitializationEvent to mod <CoFH ASM>
+[10:20:48] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLPreInitializationEvent to mod <CoFH ASM>
+[10:20:48] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLPreInitializationEvent to mod CoFHCore
+[10:20:49] [Client thread/INFO] [CoFHWorld/CoFHCore]: Registering Default Templates.
+[10:20:49] [Client thread/INFO] [CoFHWorld/CoFHCore]: Registering default generators
+[10:20:49] [Client thread/INFO] [CoFHWorld/CoFHCore]: Complete
+[10:20:50] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLPreInitializationEvent to mod CoFHCore
+[10:20:50] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLPreInitializationEvent to mod TeamIeC|Exploration
+[10:20:50] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLPreInitializationEvent to mod TeamIeC|Exploration
+[10:20:50] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLPreInitializationEvent to mod ThermalFoundation
+[10:20:51] [Client thread/INFO] [ThermalFoundation/ThermalFoundation]: Loading Plugins...
+[10:20:51] [Client thread/DEBUG] [CoFH ASM/ThermalFoundation]: Stripping methods and fields from cofh.thermalfoundation.plugins.mfr.MFRPlugin
+[10:20:52] [Client thread/DEBUG] [CoFH ASM/ThermalFoundation]: Stripping methods and fields from cofh.thermalfoundation.plugins.thaumcraft.ThaumcraftPlugin
+[10:20:52] [Client thread/DEBUG] [CoFH ASM/ThermalFoundation]: Stripping methods and fields from cofh.thermalfoundation.plugins.tconstruct.TConstructPlugin
+[10:20:52] [Client thread/DEBUG] [CoFH ASM/ThermalFoundation]: Stripping methods and fields from cofh.thermalfoundation.plugins.ee3.EE3Plugin
+[10:20:52] [Client thread/INFO] [ThermalFoundation/ThermalFoundation]: Finished Loading Plugins.
+[10:20:52] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLPreInitializationEvent to mod ThermalFoundation
+[10:20:52] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLPreInitializationEvent to mod ThermalExpansion
+[10:20:52] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Adding runtime interfaces to cofh.thermalexpansion.item.tool.ItemWrench
+[10:20:52] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Nothing implemented on cofh.thermalexpansion.item.tool.ItemWrench
+[10:20:52] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Adding runtime interfaces to cofh.thermalexpansion.item.tool.ItemWrenchBattle
+[10:20:52] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Nothing implemented on cofh.thermalexpansion.item.tool.ItemWrenchBattle
+[10:20:53] [Client thread/INFO] [ThermalExpansion/ThermalExpansion]: Loading Plugins...
+[10:20:53] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Stripping methods and fields from cofh.thermalexpansion.plugins.mfr.MFRPlugin
+[10:20:53] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Stripping methods and fields from cofh.thermalexpansion.plugins.thaumcraft.ThaumcraftPlugin
+[10:20:53] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Stripping methods and fields from cofh.thermalexpansion.plugins.ee3.EE3Plugin
+[10:20:53] [Client thread/INFO] [ThermalExpansion/ThermalExpansion]: Finished Loading Plugins.
+[10:20:53] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLPreInitializationEvent to mod ThermalExpansion
+[10:20:53] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLPreInitializationEvent to mod TeamIeC|Core
+[10:20:53] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLPreInitializationEvent to mod TeamIeC|Core
+[10:20:53] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:20:53] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:20:53] [Client thread/INFO] [FML/]: Injecting itemstacks
+[10:20:53] [Client thread/INFO] [FML/]: Itemstack injection complete
+[10:20:53] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[10:20:53] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[10:20:54] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[10:20:54] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:20:54] [Thread-9/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[10:20:54] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[10:21:07] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[10:21:07] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[10:21:07] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[10:21:07] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[10:21:07] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[10:21:07] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[10:21:07] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLInitializationEvent to mod CodeChickenCore
+[10:21:07] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLInitializationEvent to mod CodeChickenCore
+[10:21:07] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLInitializationEvent to mod NotEnoughItems
+[10:21:08] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLInitializationEvent to mod NotEnoughItems
+[10:21:08] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLInitializationEvent to mod <CoFH ASM>
+[10:21:08] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLInitializationEvent to mod <CoFH ASM>
+[10:21:08] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLInitializationEvent to mod CoFHCore
+[10:21:09] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLInitializationEvent to mod CoFHCore
+[10:21:09] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLInitializationEvent to mod TeamIeC|Exploration
+[10:21:09] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLInitializationEvent to mod TeamIeC|Exploration
+[10:21:09] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLInitializationEvent to mod ThermalFoundation
+[10:21:09] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLInitializationEvent to mod ThermalFoundation
+[10:21:09] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLInitializationEvent to mod ThermalExpansion
+[10:21:09] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Adding runtime interfaces to cofh.thermalexpansion.block.TileRSControl
+[10:21:09] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Nothing implemented on cofh.thermalexpansion.block.TileRSControl
+[10:21:09] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Stripping methods and fields from cofh.thermalexpansion.block.TileRSControl
+[10:21:09] [Client thread/DEBUG] [CoFH ASM/ThermalExpansion]: Nothing stripped from cofh.thermalexpansion.block.TileRSControl
+[10:21:12] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLInitializationEvent to mod ThermalExpansion
+[10:21:12] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLInitializationEvent to mod TeamIeC|Core
+[10:21:12] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLInitializationEvent to mod TeamIeC|Core
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[10:21:12] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[10:21:12] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[10:21:12] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[10:21:12] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[10:21:12] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[10:21:12] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod CodeChickenCore
+[10:21:12] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event IMCEvent to mod CodeChickenCore
+[10:21:12] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event IMCEvent to mod CodeChickenCore
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod NotEnoughItems
+[10:21:12] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event IMCEvent to mod NotEnoughItems
+[10:21:12] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event IMCEvent to mod NotEnoughItems
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod <CoFH ASM>
+[10:21:12] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event IMCEvent to mod <CoFH ASM>
+[10:21:12] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event IMCEvent to mod <CoFH ASM>
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod CoFHCore
+[10:21:12] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sending event IMCEvent to mod CoFHCore
+[10:21:12] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sent event IMCEvent to mod CoFHCore
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod TeamIeC|Exploration
+[10:21:12] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event IMCEvent to mod TeamIeC|Exploration
+[10:21:12] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event IMCEvent to mod TeamIeC|Exploration
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ThermalFoundation
+[10:21:12] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event IMCEvent to mod ThermalFoundation
+[10:21:12] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event IMCEvent to mod ThermalFoundation
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ThermalExpansion
+[10:21:12] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event IMCEvent to mod ThermalExpansion
+[10:21:12] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event IMCEvent to mod ThermalExpansion
+[10:21:12] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod TeamIeC|Core
+[10:21:12] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event IMCEvent to mod TeamIeC|Core
+[10:21:12] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event IMCEvent to mod TeamIeC|Core
+[10:21:12] [Client thread/INFO] [FML/]: Injecting itemstacks
+[10:21:12] [Client thread/INFO] [FML/]: Itemstack injection complete
+[10:21:12] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[10:21:12] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[10:21:12] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[10:21:12] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[10:21:12] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[10:21:12] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[10:21:12] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLPostInitializationEvent to mod CodeChickenCore
+[10:21:12] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLPostInitializationEvent to mod CodeChickenCore
+[10:21:12] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLPostInitializationEvent to mod NotEnoughItems
+[10:21:12] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLPostInitializationEvent to mod NotEnoughItems
+[10:21:12] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLPostInitializationEvent to mod <CoFH ASM>
+[10:21:12] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLPostInitializationEvent to mod <CoFH ASM>
+[10:21:12] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLPostInitializationEvent to mod CoFHCore
+[10:21:12] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLPostInitializationEvent to mod CoFHCore
+[10:21:12] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLPostInitializationEvent to mod TeamIeC|Exploration
+[10:21:12] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLPostInitializationEvent to mod TeamIeC|Exploration
+[10:21:12] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLPostInitializationEvent to mod ThermalFoundation
+[10:21:13] [Client thread/TRACE] [FML/ThermalFoundation]: Automatically registered mod ThermalFoundation entity blizzBolt as ThermalFoundation.blizzBolt
+[10:21:13] [Client thread/TRACE] [FML/ThermalFoundation]: Automatically registered mod ThermalFoundation entity blitzBolt as ThermalFoundation.blitzBolt
+[10:21:13] [Client thread/TRACE] [FML/ThermalFoundation]: Automatically registered mod ThermalFoundation entity basalzBolt as ThermalFoundation.basalzBolt
+[10:21:13] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLPostInitializationEvent to mod ThermalFoundation
+[10:21:13] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLPostInitializationEvent to mod ThermalExpansion
+[10:21:13] [Client thread/INFO] [ThermalExpansion/ThermalExpansion]: There are no crafting files present in C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\config\cofh\thermalexpansion\crafting.
+[10:21:13] [Client thread/TRACE] [FML/ThermalExpansion]: Automatically registered mod ThermalExpansion entity florb as ThermalExpansion.florb
+[10:21:13] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLPostInitializationEvent to mod ThermalExpansion
+[10:21:13] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLPostInitializationEvent to mod TeamIeC|Core
+[10:21:13] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLPostInitializationEvent to mod TeamIeC|Core
+[10:21:13] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[10:21:13] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[10:21:13] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[10:21:13] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[10:21:13] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[10:21:13] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   19: RecipeEntry("Before", UNKNOWN, )
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   18: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   17: RecipeEntry("cofh:upgradeoverride", SHAPED, cofh.core.util.crafting.RecipeUpgradeOverride) Before: forge:shapedore
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   16: RecipeEntry("cofh:augment", SHAPED, cofh.core.util.crafting.RecipeAugmentable) Before: forge:shapedore
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   15: RecipeEntry("cofh:secure", SHAPED, cofh.core.util.crafting.RecipeSecure) Before: cofh:upgrade
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("thermalexpansion:machine", SHAPED, cofh.thermalexpansion.util.crafting.RecipeMachine) Before: cofh:upgrade
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("thermalexpansion:machineUpgrade", SHAPED, cofh.thermalexpansion.util.crafting.RecipeMachineUpgrade) Before: cofh:upgrade
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("cofh:upgrade", SHAPED, cofh.core.util.crafting.RecipeUpgrade) Before: forge:shapedore
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("thermalexpansion:NEIWrapper", UNKNOWN, cofh.thermalexpansion.plugins.nei.handlers.NEIRecipeWrapper) After: forge:shapedore
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("thermalexpansion:style", SHAPED, cofh.thermalexpansion.util.crafting.RecipeStyle) After: forge:shapedore
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[10:21:13] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[10:21:13] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[10:21:13] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[10:21:13] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLLoadCompleteEvent to mod CodeChickenCore
+[10:21:13] [Client thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLLoadCompleteEvent to mod CodeChickenCore
+[10:21:13] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLLoadCompleteEvent to mod NotEnoughItems
+[10:21:13] [Client thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLLoadCompleteEvent to mod NotEnoughItems
+[10:21:13] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLLoadCompleteEvent to mod <CoFH ASM>
+[10:21:13] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLLoadCompleteEvent to mod <CoFH ASM>
+[10:21:13] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLLoadCompleteEvent to mod CoFHCore
+[10:21:13] [Client thread/INFO] [CoFHWorld/CoFHCore]: CoFH Core found 2 World Generation files present in C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\config\cofh\world/.
+[10:21:14] [Client thread/INFO] [CoFHWorld/CoFHCore]: Reading world generation info from: C:\Users\Kitsune Alex\Documents\GitHub\TeamIeC-Exploration\eclipse\config\cofh\world\ThermalFoundation-Ores.json:
+[10:21:14] [Client thread/DEBUG] [CoFHWorld/CoFHCore]: Generation entry successfully parsed: "copper"
+[10:21:14] [Client thread/DEBUG] [CoFHWorld/CoFHCore]: Generation entry successfully parsed: "tin"
+[10:21:14] [Client thread/DEBUG] [CoFHWorld/CoFHCore]: Generation entry successfully parsed: "silver"
+[10:21:14] [Client thread/DEBUG] [CoFHWorld/CoFHCore]: Generation entry successfully parsed: "lead"
+[10:21:14] [Client thread/DEBUG] [CoFHWorld/CoFHCore]: Generation entry successfully parsed: "nickel"
+[10:21:14] [Client thread/DEBUG] [CoFHWorld/CoFHCore]: Generation entry successfully parsed: "platinum"
+[10:21:14] [Client thread/DEBUG] [CoFHWorld/CoFHCore]: Generation entry successfully parsed: "copperHigh"
+[10:21:14] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLLoadCompleteEvent to mod CoFHCore
+[10:21:14] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLLoadCompleteEvent to mod TeamIeC|Exploration
+[10:21:14] [Client thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLLoadCompleteEvent to mod TeamIeC|Exploration
+[10:21:14] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLLoadCompleteEvent to mod ThermalFoundation
+[10:21:14] [Client thread/INFO] [ThermalFoundation/ThermalFoundation]: [Whitelist] Generating Default Whitelist.
+[10:21:14] [Client thread/INFO] [ThermalFoundation/ThermalFoundation]: [Whitelist] Reading established Whitelist from file.
+[10:21:14] [Client thread/INFO] [ThermalFoundation/ThermalFoundation]: Load Complete.
+[10:21:14] [Client thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLLoadCompleteEvent to mod ThermalFoundation
+[10:21:14] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLLoadCompleteEvent to mod ThermalExpansion
+[10:21:14] [Client thread/INFO] [ThermalExpansion/ThermalExpansion]: Load Complete.
+[10:21:14] [Client thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLLoadCompleteEvent to mod ThermalExpansion
+[10:21:14] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLLoadCompleteEvent to mod TeamIeC|Core
+[10:21:14] [Client thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLLoadCompleteEvent to mod TeamIeC|Core
+[10:21:14] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[10:21:14] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[10:21:14] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[10:21:14] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 11 mods
+[10:21:18] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[10:21:18] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[10:21:18] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[10:21:18] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[10:21:18] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[10:21:18] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[10:21:18] [Thread-12/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[10:21:18] [Thread-12/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:21:18] [Thread-12/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[10:21:19] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[10:21:22] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:21:22] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:21:22] [Client thread/DEBUG] [Not Enough Items/]: Mod Not Enough Items is missing a pack.mcmeta file, substituting a dummy one
+[10:21:22] [Client thread/DEBUG] [§3TeamIeC|Exploration/]: Mod §3TeamIeC|Exploration is missing a pack.mcmeta file, substituting a dummy one
+[10:21:22] [Client thread/DEBUG] [§3TeamIeC|Core/]: Mod §3TeamIeC|Core is missing a pack.mcmeta file, substituting a dummy one
+[10:21:22] [Client thread/DEBUG] [Thermal Foundation/]: Mod Thermal Foundation is missing a pack.mcmeta file, substituting a dummy one
+[10:21:22] [Client thread/DEBUG] [CoFH Core/]: Mod CoFH Core is missing a pack.mcmeta file, substituting a dummy one
+[10:21:22] [Client thread/DEBUG] [Thermal Expansion/]: Mod Thermal Expansion is missing a pack.mcmeta file, substituting a dummy one
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]: The following texture errors were found.
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:   DOMAIN minecraft
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]: --------------------------------------------------
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:   domain minecraft is missing 5 textures
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:     domain minecraft has 3 locations:
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:       unknown resourcepack type net.minecraft.client.resources.DefaultResourcePack : Default
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:       mod FML resources at C:\Users\Kitsune Alex\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1448-1.7.10\forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:       mod Forge resources at C:\Users\Kitsune Alex\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1448-1.7.10\forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:     The missing resources for domain minecraft are:
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/iecexplorationtoolSwordTitanium.png
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/iecexplorationtoolShovelTitanium.png
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/iecexplorationtoolAxeTitanium.png
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/iecexplorationtoolPickaxeTitanium.png
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/iecexplorationtoolHoeTitanium.png
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]:     No other errors exist for domain minecraft
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[10:21:23] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[10:21:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[10:21:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[10:21:30] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[10:21:30] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[10:21:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[10:21:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[10:21:30] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerAboutToStartEvent to mod CodeChickenCore
+[10:21:30] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerAboutToStartEvent to mod CodeChickenCore
+[10:21:30] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerAboutToStartEvent to mod NotEnoughItems
+[10:21:30] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerAboutToStartEvent to mod NotEnoughItems
+[10:21:30] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLServerAboutToStartEvent to mod <CoFH ASM>
+[10:21:30] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLServerAboutToStartEvent to mod <CoFH ASM>
+[10:21:30] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLServerAboutToStartEvent to mod CoFHCore
+[10:21:30] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLServerAboutToStartEvent to mod CoFHCore
+[10:21:30] [Server thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLServerAboutToStartEvent to mod TeamIeC|Exploration
+[10:21:30] [Server thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLServerAboutToStartEvent to mod TeamIeC|Exploration
+[10:21:30] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLServerAboutToStartEvent to mod ThermalFoundation
+[10:21:30] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLServerAboutToStartEvent to mod ThermalFoundation
+[10:21:30] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLServerAboutToStartEvent to mod ThermalExpansion
+[10:21:30] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLServerAboutToStartEvent to mod ThermalExpansion
+[10:21:30] [Server thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLServerAboutToStartEvent to mod TeamIeC|Core
+[10:21:30] [Server thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLServerAboutToStartEvent to mod TeamIeC|Core
+[10:21:30] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[10:21:30] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[10:21:30] [Server thread/INFO] [FML/]: Injecting new block and item data into this server instance.
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Tesseract: 190 (init) -> 190 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidPetrotheum: 179 (init) -> 179 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:FakeAirBarrier: 199 (init) -> 199 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:FakeAirLight: 198 (init) -> 198 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:Storage: 166 (init) -> 166 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidCryotheum: 177 (init) -> 177 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:Ore: 165 (init) -> 165 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Cache: 189 (init) -> 189 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidRedstone: 167 (init) -> 167 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Sponge: 196 (init) -> 196 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidAerotheum: 178 (init) -> 178 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:FakeAirSignal: 197 (init) -> 197 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidSteam: 181 (init) -> 181 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Device: 184 (init) -> 184 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Tank: 187 (init) -> 187 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Glass: 194 (init) -> 194 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Machine: 183 (init) -> 183 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Cell: 186 (init) -> 186 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidMana: 180 (init) -> 180 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Strongbox: 188 (init) -> 188 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidPyrotheum: 176 (init) -> 176 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Frame: 193 (init) -> 193 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Plate: 191 (init) -> 191 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidGlowstone: 168 (init) -> 168 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidEnder: 169 (init) -> 169 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidCoal: 182 (init) -> 182 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Light: 192 (init) -> 192 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Dynamo: 185 (init) -> 185 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Rockwool: 195 (init) -> 195 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item TeamIeC|Exploration:PickaxeTitanium: 4098 (init) -> 4098 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxeInvar: 4188 (init) -> 4188 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axeInvar: 4189 (init) -> 4189 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxeSilver: 4136 (init) -> 4136 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsNickel: 4165 (init) -> 4165 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:Ore: 165 (init) -> 165 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsLead: 4145 (init) -> 4145 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordLead: 4147 (init) -> 4147 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetNickel: 4156 (init) -> 4156 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetElectrum: 4169 (init) -> 4169 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.platePlatinum: 4209 (init) -> 4209 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodPlatinum: 4218 (init) -> 4218 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axePlatinum: 4215 (init) -> 4215 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Glass: 194 (init) -> 194 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsTin: 4126 (init) -> 4126 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axeNickel: 4163 (init) -> 4163 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:meter: 4223 (init) -> 4223 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowLead: 4155 (init) -> 4155 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsPlatinum: 4210 (init) -> 4210 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsElectrum: 4178 (init) -> 4178 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsCopper: 4106 (init) -> 4106 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelElectrum: 4174 (init) -> 4174 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxeElectrum: 4175 (init) -> 4175 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsSilver: 4132 (init) -> 4132 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodElectrum: 4179 (init) -> 4179 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:capacitor: 4228 (init) -> 4228 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.plateInvar: 4183 (init) -> 4183 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsTin: 4119 (init) -> 4119 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item TeamIeC|Exploration:HoeTitanium: 4100 (init) -> 4100 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:satchel: 4229 (init) -> 4229 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxeBronze: 4201 (init) -> 4201 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sickleCopper: 4115 (init) -> 4115 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsBronze: 4197 (init) -> 4197 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Frame: 193 (init) -> 193 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoeLead: 4151 (init) -> 4151 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidEnder: 169 (init) -> 169 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsTin: 4120 (init) -> 4120 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sickleLead: 4154 (init) -> 4154 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sickleBronze: 4206 (init) -> 4206 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxeCopper: 4110 (init) -> 4110 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sickleSilver: 4141 (init) -> 4141 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.plateElectrum: 4170 (init) -> 4170 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelInvar: 4187 (init) -> 4187 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sickleElectrum: 4180 (init) -> 4180 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:chiller: 4225 (init) -> 4225 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoeNickel: 4164 (init) -> 4164 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowInvar: 4194 (init) -> 4194 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sicklePlatinum: 4219 (init) -> 4219 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axeCopper: 4111 (init) -> 4111 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoeElectrum: 4177 (init) -> 4177 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodInvar: 4192 (init) -> 4192 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:Storage: 166 (init) -> 166 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Cache: 189 (init) -> 189 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axeElectrum: 4176 (init) -> 4176 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:florb: 4233 (init) -> 4233 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axeSilver: 4137 (init) -> 4137 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axeLead: 4150 (init) -> 4150 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordNickel: 4160 (init) -> 4160 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidSteam: 181 (init) -> 181 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxeNickel: 4162 (init) -> 4162 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetPlatinum: 4208 (init) -> 4208 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowElectrum: 4181 (init) -> 4181 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowNickel: 4168 (init) -> 4168 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordPlatinum: 4212 (init) -> 4212 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Tank: 187 (init) -> 187 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordTin: 4121 (init) -> 4121 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:tool.battleWrenchInvar: 4222 (init) -> 4222 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:bucket: 4102 (init) -> 4102 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxeLead: 4149 (init) -> 4149 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsNickel: 4159 (init) -> 4159 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sickleNickel: 4167 (init) -> 4167 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetInvar: 4182 (init) -> 4182 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Strongbox: 188 (init) -> 188 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsElectrum: 4172 (init) -> 4172 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidPyrotheum: 176 (init) -> 176 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodTin: 4127 (init) -> 4127 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxePlatinum: 4214 (init) -> 4214 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsPlatinum: 4217 (init) -> 4217 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelNickel: 4161 (init) -> 4161 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Dynamo: 185 (init) -> 185 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axeBronze: 4202 (init) -> 4202 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sickleTin: 4128 (init) -> 4128 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:wrench: 4221 (init) -> 4221 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelPlatinum: 4213 (init) -> 4213 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.plateLead: 4144 (init) -> 4144 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoeCopper: 4112 (init) -> 4112 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidRedstone: 167 (init) -> 167 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoeSilver: 4138 (init) -> 4138 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Sponge: 196 (init) -> 196 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordBronze: 4199 (init) -> 4199 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidAerotheum: 178 (init) -> 178 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodLead: 4153 (init) -> 4153 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsPlatinum: 4211 (init) -> 4211 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordSilver: 4134 (init) -> 4134 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.plateNickel: 4157 (init) -> 4157 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoeBronze: 4203 (init) -> 4203 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:lexicon: 4101 (init) -> 4101 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordElectrum: 4173 (init) -> 4173 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.plateCopper: 4105 (init) -> 4105 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsLead: 4152 (init) -> 4152 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsBronze: 4198 (init) -> 4198 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelSilver: 4135 (init) -> 4135 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.plateSilver: 4131 (init) -> 4131 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodNickel: 4166 (init) -> 4166 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsLead: 4146 (init) -> 4146 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item TeamIeC|Exploration:AxeTitanium: 4099 (init) -> 4099 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowCopper: 4116 (init) -> 4116 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsSilver: 4133 (init) -> 4133 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowSilver: 4142 (init) -> 4142 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:augment: 4232 (init) -> 4232 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidCoal: 182 (init) -> 182 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordCopper: 4108 (init) -> 4108 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Light: 192 (init) -> 192 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.plateBronze: 4196 (init) -> 4196 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetLead: 4143 (init) -> 4143 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowBronze: 4207 (init) -> 4207 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoePlatinum: 4216 (init) -> 4216 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowPlatinum: 4220 (init) -> 4220 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:material: 4231 (init) -> 4231 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Tesseract: 190 (init) -> 190 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidPetrotheum: 179 (init) -> 179 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetBronze: 4195 (init) -> 4195 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoeInvar: 4190 (init) -> 4190 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelTin: 4122 (init) -> 4122 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidCryotheum: 177 (init) -> 177 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsCopper: 4113 (init) -> 4113 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelLead: 4148 (init) -> 4148 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsInvar: 4191 (init) -> 4191 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelBronze: 4200 (init) -> 4200 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.axeTin: 4124 (init) -> 4124 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsSilver: 4139 (init) -> 4139 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.hoeTin: 4125 (init) -> 4125 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetCopper: 4104 (init) -> 4104 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.pickaxeTin: 4123 (init) -> 4123 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.bowTin: 4129 (init) -> 4129 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Device: 184 (init) -> 184 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shovelCopper: 4109 (init) -> 4109 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.shearsBronze: 4204 (init) -> 4204 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsCopper: 4107 (init) -> 4107 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.sickleInvar: 4193 (init) -> 4193 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodSilver: 4140 (init) -> 4140 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetTin: 4117 (init) -> 4117 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Machine: 183 (init) -> 183 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:transfuser: 4227 (init) -> 4227 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodCopper: 4114 (init) -> 4114 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Cell: 186 (init) -> 186 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsNickel: 4158 (init) -> 4158 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.bootsInvar: 4185 (init) -> 4185 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:diagram: 4230 (init) -> 4230 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidMana: 180 (init) -> 180 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:material: 4103 (init) -> 4103 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:pump: 4226 (init) -> 4226 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsInvar: 4184 (init) -> 4184 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.swordInvar: 4186 (init) -> 4186 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:igniter: 4224 (init) -> 4224 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.helmetSilver: 4130 (init) -> 4130 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Plate: 191 (init) -> 191 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:tool.fishingRodBronze: 4205 (init) -> 4205 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:FluidGlowstone: 168 (init) -> 168 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.plateTin: 4118 (init) -> 4118 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalFoundation:armor.legsElectrum: 4171 (init) -> 4171 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item TeamIeC|Exploration:ShovelTitanium: 4097 (init) -> 4097 (map).
+[10:21:30] [Server thread/INFO] [FML/]: Injected new block/item ThermalExpansion:Rockwool: 195 (init) -> 195 (map).
+[10:21:30] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[10:21:30] [Server thread/TRACE] [FML/]: Skipping remap event - no remaps occured
+[10:21:30] [Server thread/INFO] [FML/]: Applying holder lookups
+[10:21:30] [Server thread/INFO] [FML/]: Holder lookups applied
+[10:21:30] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[10:21:30] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[10:21:30] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[10:21:30] [Server thread/INFO] [FML/]: Loading dimension 0 (Test World I) (net.minecraft.server.integrated.IntegratedServer@1339f0fa)
+[10:21:30] [Server thread/INFO] [FML/]: Loading dimension 1 (Test World I) (net.minecraft.server.integrated.IntegratedServer@1339f0fa)
+[10:21:30] [Server thread/DEBUG] [NotEnoughItems/]: Loading NEI Server
+[10:21:30] [Server thread/INFO] [FML/]: Loading dimension -1 (Test World I) (net.minecraft.server.integrated.IntegratedServer@1339f0fa)
+[10:21:32] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[10:21:32] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[10:21:32] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[10:21:32] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[10:21:32] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[10:21:32] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[10:21:32] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStartingEvent to mod CodeChickenCore
+[10:21:32] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStartingEvent to mod CodeChickenCore
+[10:21:32] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStartingEvent to mod NotEnoughItems
+[10:21:32] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStartingEvent to mod NotEnoughItems
+[10:21:32] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLServerStartingEvent to mod <CoFH ASM>
+[10:21:32] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLServerStartingEvent to mod <CoFH ASM>
+[10:21:32] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLServerStartingEvent to mod CoFHCore
+[10:21:32] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLServerStartingEvent to mod CoFHCore
+[10:21:32] [Server thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLServerStartingEvent to mod TeamIeC|Exploration
+[10:21:32] [Server thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLServerStartingEvent to mod TeamIeC|Exploration
+[10:21:32] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLServerStartingEvent to mod ThermalFoundation
+[10:21:32] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLServerStartingEvent to mod ThermalFoundation
+[10:21:32] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLServerStartingEvent to mod ThermalExpansion
+[10:21:32] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLServerStartingEvent to mod ThermalExpansion
+[10:21:32] [Server thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLServerStartingEvent to mod TeamIeC|Core
+[10:21:32] [Server thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLServerStartingEvent to mod TeamIeC|Core
+[10:21:32] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[10:21:32] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[10:21:32] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[10:21:32] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[10:21:32] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[10:21:32] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[10:21:32] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStartedEvent to mod CodeChickenCore
+[10:21:32] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStartedEvent to mod CodeChickenCore
+[10:21:32] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStartedEvent to mod NotEnoughItems
+[10:21:32] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStartedEvent to mod NotEnoughItems
+[10:21:32] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLServerStartedEvent to mod <CoFH ASM>
+[10:21:32] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLServerStartedEvent to mod <CoFH ASM>
+[10:21:32] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLServerStartedEvent to mod CoFHCore
+[10:21:32] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLServerStartedEvent to mod CoFHCore
+[10:21:32] [Server thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLServerStartedEvent to mod TeamIeC|Exploration
+[10:21:32] [Server thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLServerStartedEvent to mod TeamIeC|Exploration
+[10:21:32] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLServerStartedEvent to mod ThermalFoundation
+[10:21:32] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLServerStartedEvent to mod ThermalFoundation
+[10:21:32] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLServerStartedEvent to mod ThermalExpansion
+[10:21:32] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLServerStartedEvent to mod ThermalExpansion
+[10:21:32] [Server thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLServerStartedEvent to mod TeamIeC|Core
+[10:21:32] [Server thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLServerStartedEvent to mod TeamIeC|Core
+[10:21:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Test World I
+[10:21:32] [Client thread/INFO] [STDOUT/]: [net.minecraft.client.Minecraft:displayCrashReport:388]: ---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 23.08.15 10:21
+Description: Ticking entity
+
+java.lang.IllegalAccessError: tried to access field net.minecraft.world.World.collidingBoundingBoxes from class cofh.asmhooks.HooksCore
+	at cofh.asmhooks.HooksCore.getEntityCollisionBoxes(HooksCore.java:69)
+	at net.minecraft.entity.Entity.moveEntity(Entity.java:688)
+	at net.minecraft.entity.item.EntityItem.onUpdate(EntityItem.java:120)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2298)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:684)
+	at net.minecraft.world.World.updateEntity(World.java:2258)
+	at net.minecraft.world.World.updateEntities(World.java:2108)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at cofh.asmhooks.HooksCore.getEntityCollisionBoxes(HooksCore.java:69)
+	at net.minecraft.entity.Entity.moveEntity(Entity.java:688)
+	at net.minecraft.entity.item.EntityItem.onUpdate(EntityItem.java:120)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2298)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:684)
+	at net.minecraft.world.World.updateEntity(World.java:2258)
+
+-- Entity being ticked --
+Details:
+	Entity Type: Item (net.minecraft.entity.item.EntityItem)
+	Entity ID: 49
+	Entity Name: item.item.seeds
+	Entity's Exact location: 1047,06, 4,13, -413,84
+	Entity's Block location: World: (1047,4,-414), Chunk: (at 7,0,2 in 65,-26; contains blocks 1040,0,-416 to 1055,255,-401), Region: (2,-1; contains chunks 64,-32 to 95,-1, blocks 1024,0,-512 to 1535,255,-1)
+	Entity's Momentum: -0,00, -0,04, 0,00
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:2108)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+
+-- Affected level --
+Details:
+	Level name: Test World I
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 625 Drop: 0
+	Level seed: -1952299728529151070
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (1156,4,-383), Chunk: (at 4,0,1 in 72,-24; contains blocks 1152,0,-384 to 1167,255,-369), Region: (2,-1; contains chunks 64,-32 to 95,-1, blocks 1024,0,-512 to 1535,255,-1)
+	Level time: 10923 game time, 10923 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 44108 (now: false), thunder time: 51565 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1961323096 bytes (1870 MB) / 2112618496 bytes (2014 MB) up to 3211526144 bytes (3062 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx3096M -Xms2048M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1448 11 mods loaded, 11 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1448} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar) 
+	UCHIJAAAA	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCHIJAAAA	NotEnoughItems{1.0.5.111} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.111-dev.jar) 
+	UCHIJAAAA	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHIJAAAA	CoFHCore{1.7.10R3.0.3} [CoFH Core] (CoFHCore-[1.7.10]3.0.3-303-dev.jar) 
+	UCHIJAAAA	TeamIeC|Exploration{0.0.1} [§3TeamIeC|Exploration] (bin) 
+	UCHIJAAAA	ThermalFoundation{1.7.10R1.2.0} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.0-102-dev.jar) 
+	UCHIJAAAA	ThermalExpansion{1.7.10R4.0.3B1} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.0.3B1-218-dev.jar) 
+	UCHIJAAAA	TeamIeC|Core{0.1.1} [§3TeamIeC|Core] (TeamIeCCore-[1.7.10]0.1.1-dev.jar) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	CoFHCore: -[1.7.10]3.0.3-303
+	ThermalFoundation: -[1.7.10]1.2.0-102
+	ThermalExpansion: -[1.7.10]4.0.3B1-218
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+[10:21:32] [Client thread/INFO] [STDOUT/]: [net.minecraft.client.Minecraft:displayCrashReport:393]: #@!@# Game crashed! Crash report saved to: #@!@# .\crash-reports\crash-2015-08-23_10.21.32-server.txt
+[10:21:32] [Client thread/INFO] [FML/]: Waiting for the server to terminate/save.
+[10:21:33] [Server thread/INFO] [FML/]: Unloading dimension 0
+[10:21:33] [Server thread/INFO] [FML/]: Unloading dimension -1
+[10:21:33] [Server thread/INFO] [FML/]: Unloading dimension 1
+[10:21:33] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[10:21:33] [Server thread/INFO] [FML/]: Applying holder lookups
+[10:21:33] [Server thread/INFO] [FML/]: Holder lookups applied
+[10:21:33] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[10:21:33] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[10:21:33] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[10:21:33] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[10:21:33] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[10:21:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[10:21:33] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStoppedEvent to mod CodeChickenCore
+[10:21:33] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStoppedEvent to mod CodeChickenCore
+[10:21:33] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStoppedEvent to mod NotEnoughItems
+[10:21:33] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStoppedEvent to mod NotEnoughItems
+[10:21:33] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLServerStoppedEvent to mod <CoFH ASM>
+[10:21:33] [Server thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLServerStoppedEvent to mod <CoFH ASM>
+[10:21:33] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLServerStoppedEvent to mod CoFHCore
+[10:21:33] [Server thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLServerStoppedEvent to mod CoFHCore
+[10:21:33] [Server thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sending event FMLServerStoppedEvent to mod TeamIeC|Exploration
+[10:21:33] [Server thread/TRACE] [TeamIeC|Exploration/TeamIeC|Exploration]: Sent event FMLServerStoppedEvent to mod TeamIeC|Exploration
+[10:21:33] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sending event FMLServerStoppedEvent to mod ThermalFoundation
+[10:21:33] [Server thread/TRACE] [ThermalFoundation/ThermalFoundation]: Sent event FMLServerStoppedEvent to mod ThermalFoundation
+[10:21:33] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sending event FMLServerStoppedEvent to mod ThermalExpansion
+[10:21:33] [Server thread/TRACE] [ThermalExpansion/ThermalExpansion]: Sent event FMLServerStoppedEvent to mod ThermalExpansion
+[10:21:33] [Server thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sending event FMLServerStoppedEvent to mod TeamIeC|Core
+[10:21:33] [Server thread/TRACE] [TeamIeC|Core/TeamIeC|Core]: Sent event FMLServerStoppedEvent to mod TeamIeC|Core
+[10:21:33] [Server thread/INFO] [FML/]: The state engine was in incorrect state SERVER_STOPPING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[10:21:33] [Client thread/INFO] [FML/]: Server terminated.

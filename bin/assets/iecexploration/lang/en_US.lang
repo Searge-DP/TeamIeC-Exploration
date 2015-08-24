@@ -1,0 +1,36 @@
+item.iecexploration.material.ingotTitanium.name=Titanium Ingot
+item.iecexploration.material.ingotNetherrite.name=Netherrite Ingot
+item.iecexploration.material.ingotTriDim.name=TriDim Ingot
+item.iecexploration.material.nuggetTitanium.name=Titanium Nugget
+item.iecexploration.material.nuggetNetherrite.name=Netherrite Nugget
+item.iecexploration.material.nuggetTriDim.name=TriDim Nugget
+item.iecexploration.material.dustTitanium.name=Pulverized Titanium
+item.iecexploration.material.dustNetherrite.name=Pulverized Netherrite
+item.iecexploration.material.dustTriDim.name=TriDim Blend
+
+item.SwordTitanium.name=Titanium Sword
+item.SwordNetherrite.name=Netherrite Sword
+item.SwordTriDim.name=TriDim Sword
+item.SwordEnderium.name=Enderium Sword
+item.ShovelTitanium.name=Titanium Shovel
+item.ShovelNetherrite.name=Netherrite Shovel
+item.ShovelTriDim.name=TriDim Shovel
+item.ShovelEnderium.name=Enderium Shovel
+item.PickaxeTitanium.name=Titanium Pickaxe
+item.PickaxeNetherrite.name=Netherrite Pickaxe
+item.PickaxeTriDim.name=TriDim Pickaxe
+item.PickaxeEnderium.name=Enderium Pickaxe
+item.AxeTitanium.name=Titanium Axe
+item.AxeNetherrite.name=Netherrite Axe
+item.AxeTriDim.name=TriDim Axe
+item.AxeEnderium.name=Enderium Axe
+item.HoeTitanium.name=Titanium Hoe
+item.HoeNetherrite.name=Netherrite Hoe
+item.HoeTriDim.name=TriDim Hoe
+item.HoeEnderium.name=Enderium Hoe
+
+tile.ores.titanium.name=Titanium Ore
+tile.ores.netherrite.name=Netherrite Ore
+tile.oreblocks.titanium.name=Titanium Block
+tile.oreblocks.netherrite.name=Netherrite Block
+tile.oreblocks.tridim.name=TriDim Block

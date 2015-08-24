@@ -1,0 +1,18 @@
+package iec.teamiec.exploration.block;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import iec.teamiec.exploration.IeCExplorationTabs;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class IeCEBlocks {
+	
+	public static Block IeCEOres;
+	public static Block IeCEOreStorage;
+	
+	public static void preInit(){
+		GameRegistry.registerBlock(IeCEOres = (new IeCEOres(Material.rock)).setCreativeTab(IeCExplorationTabs.tabBlocks).setBlockName("ores"), IeCEOresI.class, "IeCEOres");
+		GameRegistry.registerBlock(IeCEOreStorage = (new IeCEOreStorage(Material.iron)).setCreativeTab(IeCExplorationTabs.tabBlocks).setBlockName("orestorage"), IeCEOreStorageI.class, "IeCEOreStorage");
+	}
+
+}

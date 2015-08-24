@@ -1,0 +1,19 @@
+package iec.teamiec.exploration;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import iec.teamiec.exploration.item.IeCEItems;
+
+public class IeCExplorationTabs {
+	
+	public static CreativeTabs tabIeCEBlocks = new CreativeTabs("tabIeCEBlocks"){
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem() {
+			return IeCEItems.PickaxeTitanium;
+		}
+	};
+
+}

@@ -1,0 +1,23 @@
+package iec.teamiec.exploration.handler;
+
+public class CraftingHandler {
+	
+	public static void postInit(){
+		crafting();
+		smelting();
+		pulverizing();
+	}
+	
+	public static void crafting(){
+		
+	}
+	
+	public static void smelting(){
+		
+	}
+	
+	public static void pulverizing(){
+		
+	}
+
+}

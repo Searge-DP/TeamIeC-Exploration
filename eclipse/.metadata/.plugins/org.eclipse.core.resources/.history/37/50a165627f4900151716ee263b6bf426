@@ -1,0 +1,11 @@
+package iec.teamiec.exploration.item;
+
+import net.minecraft.item.Item;
+
+public class IeCEMaterials extends Item {
+	
+	public IeCEMaterials(){
+		
+	}
+
+}
